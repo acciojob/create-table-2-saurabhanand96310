@@ -1,11 +1,8 @@
 let table=document.querySelector("#myTable");
-
-
 function createTable() {
       let row= prompt("Input number of rows");
-	  let column= prompt("Input number of column");
-	table.innerHTML='';
-	
+	  let column= prompt("Input number of columns");
+	table.innerHTML='';	
 	for(let i=0;i<row;i++){
 		let tr=document.createElement('tr');
 		for(let j=0;j<column;j++){
